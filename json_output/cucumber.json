@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T14:19:09.144Z",
+        "line": 4,
+        "name": "User should be able to search",
+        "description": "",
+        "id": "search-feature;user-should-be-able-to-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78036000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the Skill Academy application",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.user_launch_the_skill_academy_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Should be able to see Skill Academy Dashboard Page",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.should_be_able_to_see_skill_academy_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to see Search Bar on Dashboard",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.user_should_be_able_to_see_search_bar_on_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 881000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Search bar",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.user_clicks_on_search_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1872000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the value \"value\" to be searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"value\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.SearchStepDefinition.user_enters_the_value_to_be_searched(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10335000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be navigated to the Search Result page",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.user_should_be_navigated_to_the_search_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7557000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see the searched result",
+            "match": {
+              "location": "StepDefinition.SearchStepDefinition.user_should_be_able_to_see_the_searched_result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Search feature",
+    "description": "",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Search.feature",
+    "tags": []
+  }
+]

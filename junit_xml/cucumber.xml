@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="102.799">
+<testcase classname="Search feature" name="User should be able to search" time="100.287">
+<system-out><![CDATA[Given User launch the Skill Academy application.............................passed
+Then Should be able to see Skill Academy Dashboard Page.....................passed
+And User should be able to see Search Bar on Dashboard......................passed
+When User clicks on Search bar..............................................passed
+And User enters the value "value" to be searched............................passed
+Then User should be navigated to the Search Result page.....................passed
+And User should be able to see the searched result..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
